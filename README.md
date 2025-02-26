@@ -23,7 +23,7 @@ In this guide, we will learn how to create, deploy, and manage Virtual Machines 
 <h2>High-Level Steps</h2>
 
 - Step 1: Sign in or Create Microsoft Azure subscription
-- Step 2: Configure VM
+- Step 2: Begin VM Creation
 - Step 3: Basic Tab overview
 - Step 4: Disk Tab overview
 - Step 5: Networking Tab Overview
@@ -43,31 +43,33 @@ Using your Computer search for Microsoft Azure and select the the offical Micros
 <h2>Use Azure VM section to create machine</h2>
 
 <p>
-<img src="https://i.imgur.com/2XmBpao.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hPgd5az.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Using either the search bar or the VN tab (seen above) select the VN feature in Azure to create a new virual machine.
+After signing in or up for Azure use either the search bar or the VN tab (seen above) select the VN feature in Azure to create a new virual machine.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/R8WiGQZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zw2WpGM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Select the create -> Azure Virtual machine
 </p>
 <p>
-<img src="https://i.imgur.com/bmecSrW.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rQevqkk.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <h2>Basics Tab</h2>
 
+<h3> On the Basics tab we will select the primary setting for the VN. Below find steps that guide on what each section of this tab do.</h3>
+
 <p>
 <img src="https://i.imgur.com/dOX25pZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h3> On the Basics tab we will select the primary setting for the VN.</h3>
+
  
 
 </p>
@@ -134,8 +136,9 @@ Disks Tab
 </p> 
 
 <p>
-This finishes the network tab, next we'll select "next Disk" to set up Disk information.
+This finishes the Basics tab, next we'll select "Next: Disk" found at the bottom to set up Disk information.
 </p>
+<img src="https://i.imgur.com/JAl7Z8G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </b>
 
 <br />
@@ -153,6 +156,7 @@ This finishes the network tab, next we'll select "next Disk" to set up Disk info
 - Data Disks:
   > If you need additional storage, you can add data disks later. Data disks are separate from the OS disk and can be attached to the VM.
 
+</b>
 
 <h2>Networing Tab Overview</h2>
 <p>Here, you’ll configure the networking settings for your VM.</p>
@@ -203,7 +207,8 @@ This finishes the network tab, next we'll select "next Disk" to set up Disk info
 In your Windows computer go to your search bar and search for Remote Desk Top
 <img src="https://i.imgur.com/OGD4jw0.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>Select Remote Desktop Connection to open up the connection window.</p>
-<p>Once opened take the public IP Address from the VN you made and type it into the field. </p>
+<p>Once opened take the public IP Address from the VN you made and type it into the field. 
+After that use the user name and password you created back in the basics tab to sign into your new virual machine.</p>
 <p>Select connect</p>
 <P></P>
 <img src="https://i.imgur.com/CU5rOq1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
